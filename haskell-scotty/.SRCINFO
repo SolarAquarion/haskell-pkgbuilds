@@ -22,9 +22,7 @@ pkgbase = haskell-scotty
 	depends = haskell-regex-compat
 	depends = haskell-data-default-class
 	source = http://hackage.haskell.org/packages/archive/scotty/0.11.4/scotty-0.11.4.tar.gz
-	source = 0001-Wrap-3.3-delete-fail-and-nats.patch
 	sha256sums = f1b89ca31e7bb987746ec29a3de573950d9cd67e7e2dee63f141291b5ffde08f
-	sha256sums = 2c4addfcf3e0c63585d799628a673ac6df00f205038762c1bff22719dfe3f3e1
 
 pkgname = haskell-scotty
 

@@ -36,7 +36,6 @@ sha256sums=('f1b89ca31e7bb987746ec29a3de573950d9cd67e7e2dee63f141291b5ffde08f')
 
 prepare() {
     cd "${srcdir}/${_hkgname}-${pkgver}"
-    patch -Np1 -i ../0001-Wrap-3.3-delete-fail-and-nats.patch
 }
 
 build() {
